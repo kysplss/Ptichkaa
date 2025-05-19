@@ -176,7 +176,7 @@ function update() {
     })
 
     nextPipes++
-    if (nextPipes === 130) {
+    if (nextPipes === 500) {
         makePipes(game.scene.scenes[0])
         nextPipes = 0
     }
